@@ -22,4 +22,4 @@ async def run_search_agent(topic: str) -> None:
             print(f"Estimated cost: ${message.total_cost_usd:.4f}")
 
 if __name__ == "__main__":
-    asyncio.run(run_search_agent("The current state of quantum computing"))
+    asyncio.run(run_search_agent("Your research topic here"))
